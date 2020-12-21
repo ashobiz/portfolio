@@ -106,7 +106,7 @@ nav{
       text-transform: uppercase;
       i{
         font-style: normal;
-        color: #888;
+        color: $base;
       }
     }
     h2{
@@ -115,6 +115,9 @@ nav{
       font-weight: 400;
       margin: 5px 0px 10px 0;
       color: #444;
+      i{
+        color: $base;
+      }
     }
     @media (max-width: 600px){
       h2{
