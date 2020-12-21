@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, NavLink} from 'react-router-dom'
+import {HashRouter as Router, Route, NavLink} from 'react-router-dom'
 import Home from './pages/Home'
 import Skills from './pages/Skills'
 import Contact from './pages/Contact'
