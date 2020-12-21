@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300;1,400;1,600,800&display=swap');
+@import "normalize.css";
+
+/* variables */
+$base : #01c5c4;
+@mixin bShadow($x) {
+  box-shadow: 0px 0px $x #666;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  background: $base;
+}
+a{
+  color: #555;
+  border-bottom: 1px dashed #999;
+  text-decoration: none;
+  &:hover{
+    border-bottom: 0;
+  }
+}
+.clear{
+  clear: both;
+}
+hr{
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 25px 0;
+}
+/* Page animation */
+.fade-appear{
+  opacity: 0;
+}
+.fade-appear-active{
+  opacity: 1;
+  transition: opacity 0.8s;
+}
+/* Main */
+.main{
+  background: #fff;
+  max-width: 900px;
+  padding: 20px;
+  margin: 60px auto 30px auto;
+  @include bShadow(15px);
+  .dots{
+    i{
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      border-radius: 100%;
+      margin-right: 5px;
+      &:first-child{
+        background: #fa7f72;
+      }
+      &:nth-child(2){
+        background: #fca652;
+      }
+      &:last-child{
+        background: #19d3da;
+      }
+    }
+  }
+}
+nav{
+  max-width: 700px;
+  margin: 10px auto;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  .active{
+    font-weight: bold;
+    color: rgb(80, 143, 194);
+  }
+  ul{
+    margin: 0;
+    padding: 0;  
+    list-style-type: none;
+    li{
+      margin: 3px 6px;
+      padding: 0;  
+      display: inline-block;
+      a{
+        border-bottom: 0;
+        transition:  color 0.5s;
+        &:hover{
+          color: rgb(80, 143, 194);;
+        }
+      }
+    }
+  }
+}
+.home{
+  max-width: 700px;
+  margin: 100px auto;
+  position: relative;
+  .hleft{
+    float: left;
+    width: 65%;
+    h1{
+      font-size: 40px;
+      color: #444;
+      margin: 5px 0px 10px 0;
+      text-transform: uppercase;
+      i{
+        font-style: normal;
+        color: #888;
+      }
+    }
+    h2{
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 400;
+      margin: 5px 0px 10px 0;
+      color: #444;
+    }
+    @media (max-width: 600px){
+      h2{
+        font-size: 15px;
+        line-height: 25px;
+      }
+    }
+    p{
+      font-style: 13px;
+      line-height: 30px;
+      color: #666;
+    }
+  }
+  @media (max-width: 500px){
+    .hleft{
+      float: none;
+      width: 100%;
+      margin-top: 250px;
+    }
+  }
+  .hright{
+    float: right;
+    width: 25%;
+    position: relative;
+    img{
+      width:150px;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      box-shadow: 10px 10px 15px rgb(202, 197, 197);
+    }
+  }
+  @media (max-width: 500px){
+    .hright{
+      position: absolute;
+      top: -180px;
+      left: 20px;
+      float: none;
+      width: 100%;
+      img{
+        position: relative;
+        top: 0;
+      }
+    }
+  }
+}
+.skills{
+  max-width: 700px;
+  margin: 100px auto;
+  h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #444;
+  }
+  p{
+    line-height: 30px;
+    color: #444;
+  }
+}
+.contact{
+  margin: 100px auto;
+  max-width: 700px;
+  h2{
+    color: #444;
+    font-weight: 600;
+  }
+  p{
+    line-height: 25px;
+    color: #444;
+  }
+  ul{
+    margin: 20px 0;
+    padding: 0;
+    list-style-type: none;
+    li{
+      position: relative;
+      margin: 10px 0;
+      span{
+        position: absolute;
+        top: -3px;
+        left: 35px;
+      }
+      a{
+        color: #444;
+        text-decoration: none;
+        border-bottom: 1px dashed #888;
+        &:hover{
+          text-decoration: none;
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+}
+.works{
+  max-width: 700px;
+  margin: 100px auto;
+  h2{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .works-inner{
+    display: flex;
+    flex-wrap: wrap;
+    .work{
+      max-width: 300px;
+      width: 100%;
+      margin: 10px auto;
+      padding: 10px;
+      text-align: center;
+      a{
+        border-bottom: 0;
+      }
+      img{
+        width: 100%;
+        border: 7px solid #fff;
+        box-shadow: 0px 0px 1px #888, 0px 0px 15px #ddd;
+        position: relative;
+        top: 0;
+        transition: top 0.5s;
+        &:hover{
+          top: -5px;
+        }
+      }
+      h3{
+        font-size: 14px;
+      }
+    }
+  }
+}
+footer{
+  text-align: center;
+  margin: 20px 0 30px 0;
+  color: #ccf5f5;
+  a{
+    color: #ccf5f5;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover{
+      color: #e5f7f7;
+    }
+  }
+}
