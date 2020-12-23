@@ -15,7 +15,7 @@ export default function Home() {
                     <div className="hleft">
                         <h1>Ashok<i>.</i></h1>
                         <h2>FrontEnd Developer <i>/</i> Web Designer</h2>
-                        <p>Hello, I'm a FrontEnd Developer & Designer focused on producing exceptional digial experience. I wrote my first line of Code in 2010 and I have designed hundreds of websites for agencies around the world.</p>
+                        <p>Hello, I'm a FrontEnd Developer & Designer focused on producing exceptional digial experience. I wrote my first line of Code in 2010 and I have designed hundreds of websites for people around the world.</p>
                     </div>
                     <div className="hright">
                         <img src="/images/profile.jpg" alt="Ashok" />
