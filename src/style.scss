@@ -8,7 +8,7 @@ $base : #01c5c4;
 }
 body{
   font-family: 'Open Sans', sans-serif;
-  background: $base;
+  background: $base; 
 }
 a{
   color: #555;
@@ -40,7 +40,7 @@ strong{
 /* Main */
 .main{
   background: #fff;
-  max-width: 900px;
+  max-width: 1000px;
   padding: 20px;
   margin: 60px auto 30px auto;
   @include bShadow(15px);
@@ -92,8 +92,22 @@ nav{
     }
   }
 }
+.sub_heading{
+  margin: 0px 0 20px 0;
+  text-align: center;
+  h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: normal;
+    color: #666;
+    display: inline-block;
+    border-top: 4px double #eee;
+    border-bottom: 4px double #eee;
+  }
+}
 .home{
-  max-width: 700px;
+  max-width: 750px;
   margin: 100px auto;
   position: relative;
   .hleft{
@@ -103,7 +117,6 @@ nav{
       font-size: 40px;
       color: #444;
       margin: 5px 0px 10px 0;
-      text-transform: uppercase;
       i{
         font-style: normal;
         color: $base;
@@ -118,6 +131,11 @@ nav{
       i{
         color: $base;
       }
+    }
+    h3{
+      font-weight: normal;
+      margin-bottom: 5px;
+      color: #999;
     }
     @media (max-width: 600px){
       h2{
@@ -165,12 +183,39 @@ nav{
   }
 }
 .skills{
-  max-width: 700px;
+  max-width: 750px;
   margin: 100px auto;
-  h2{
-    font-size: 20px;
-    font-weight: 600;
-    color: #444;
+  .skill_outer{    
+    display: flex;
+    flex-wrap: wrap;
+    .skill_item{
+      margin: 10px 2%;
+      flex: 46%;
+      h3{
+        font-size: 16px;
+        font-weight: normal;
+        position: relative;
+        span{
+          color: #01c5c4;
+          margin-left: 5px;
+          position: absolute;
+          right: 0;
+          top: 5px
+        }
+      }
+      .progress{
+        width: 100%;
+        height: 5px;
+        background-color: #eee;
+        span{
+          background-color: #01c5c4;
+          display: block;
+          color: #fff;
+          height: 5px; 
+          margin: 0;
+        }
+      }
+    }
   }
   p{
     line-height: 30px;
@@ -179,7 +224,7 @@ nav{
 }
 .contact{
   margin: 100px auto;
-  max-width: 700px;
+  max-width: 750px;
   h2{
     color: #444;
     font-weight: 600;
@@ -213,44 +258,23 @@ nav{
   }
 }
 .works{
-  max-width: 700px;
+  max-width: 750px;
   margin: 100px auto;
-  h2{
-    font-size: 20px;
-    font-weight: 600;
-  }
   p{
-    color: #444;
+    color: #777;
     line-height: 30px;
   }
-  .works-inner{
-    display: flex;
-    flex-wrap: wrap;
-    .work{
-      max-width: 300px;
-      width: 100%;
-      margin: 10px auto;
-      padding: 10px;
-      text-align: center;
-      a{
-        border-bottom: 0;
-      }
-      img{
-        width: 100%;
-        border: 7px solid #fff;
-        box-shadow: 0px 0px 1px #888, 0px 0px 15px #ddd;
-        position: relative;
-        top: 0;
-        transition: top 0.5s;
-        &:hover{
-          top: -5px;
-        }
-      }
-      h3{
-        font-size: 14px;
-        color: #444;
-      }
-    }
+  h3{
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: #444;
+    font-size: 16px;
+  }
+  ul li{
+    margin: 5px 0;
+    color: #777;
+    font-size: 14px;
+    line-height: 30px;
   }
 }
 footer{
@@ -264,5 +288,21 @@ footer{
     &:hover{
       color: #e5f7f7;
     }
+  }
+}
+.two_col{
+  display: flex;
+  .two_col_inner{
+    margin-right: 40px;
+  }
+  h2{
+    border: 0;
+    text-align: left;
+  }
+  h6{
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 0;
   }
 }

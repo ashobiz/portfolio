@@ -15,14 +15,14 @@ function App() {
           {/* Colored dots */}
           <div className="dots"><i></i><i></i><i></i></div>
           {/* Navigation */}
-          <nav>
+          {/* <nav>
             <ul>
               <li><NavLink to="/" exact>Home</NavLink></li>
               <li><NavLink activeClassStyle="active" to="/skills">Skills</NavLink></li>
               <li><NavLink to="/works">Works</NavLink></li>
               <li><NavLink to="/contact">Contact</NavLink></li>
             </ul>
-          </nav>
+          </nav> */}
 
             <Route path="/" exact={true}>
               <Home />
