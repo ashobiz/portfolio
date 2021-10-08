@@ -93,15 +93,17 @@ footer & auto pagination. For detailed info, please visit the links below.</p>
 
 <h3>Some of my works</h3>
 
-<a href="www.backyardbrains.com">Backyar brains</a> <br />
-<a href="ashobiz-brave.netlify.app">Brave</a> <br />
-<a href="ashobiz-cakefactory.netlify.app">Cakefactory</a> <br />
-<a href="ashobiz-flatmania.netlify.app">Flatmania</a> <br />
-<a href="www.sarahpayne.co.uk">Sarah payne</a> <br />
-<a href="nas02.netstring.de/project/zeewolde">NetString</a> <br />
-<a href="www.netekspert.com">NetekSPert</a>
-
-                </div>
+<ul>
+    <li><a href="www.backyardbrains.com">Backyar brains</a></li>
+    <li><a href="ashobiz-brave.netlify.app">Brave</a></li>
+    <li><a href="ashobiz-cakefactory.netlify.app">Cakefactory</a></li>
+    <li><a href="ashobiz-flatmania.netlify.app">Flatmania</a></li>
+    <li><a href="www.sarahpayne.co.uk">Sarah payne</a> </li>
+    <li><a href="nas02.netstring.de/project/zeewolde">NetString</a></li>
+    <li><a href="www.netekspert.com">NetekSPert</a></li>
+</ul>
+ 
+                 </div>
 
                 <div className="works edu">
                     <div className="two_col">
