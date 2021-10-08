@@ -91,11 +91,15 @@ footer & auto pagination. For detailed info, please visit the links below.</p>
 <p>Github - <a href="https://github.com/ashobiz/react-on-the-fly-pdf">https://github.com/ashobiz/react-on-the-fly-pdf</a></p>
 <p>NPM - <a href="https://github.com/ashobiz/react-on-the-fly-pdf">https://www.npmjs.com/package/react-on-the-fly-pdf</a></p> */}
 
+<h3>Some of my works</h3>
 
-<a href="www.backyardbrains.com">Backyar brains</a> ashobiz-brave.netlify.app
-ashobiz-cakefactory.netlify.app ashobiz-flatmania.netlify.app
-www.sarahpayne.co.uk nas02.netstring.de/project/zeewolde
-www.netekspert.com
+<a href="www.backyardbrains.com">Backyar brains</a> 
+<a href="ashobiz-brave.netlify.app">Brave</a>
+<a href="ashobiz-cakefactory.netlify.app">Cakefactory</a>
+<a href="ashobiz-flatmania.netlify.app">Flatmania</a>
+<a href="www.sarahpayne.co.uk">Sarah payne</a>
+<a href="nas02.netstring.de/project/zeewolde">NetString</a>
+<a href="www.netekspert.com">NetekSPert</a>
 
                 </div>
 
