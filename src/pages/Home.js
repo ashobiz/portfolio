@@ -81,7 +81,7 @@ export default function Home() {
 
 
 <hr />
-                        <h3>My Contribution to Open Source Community</h3>
+                        {/* <h3>My Contribution to Open Source Community</h3>
                         <p>I always wanted to give something back to the open source community. So, I built
 this small React library called ‘React on the fly pdf’ and released it on github. As the
 name indicates, it is a React based PDF document generator. My library will
@@ -89,7 +89,13 @@ generate a PDF document based on the given HTML page. It supports header,
 footer & auto pagination. For detailed info, please visit the links below.</p>
 
 <p>Github - <a href="https://github.com/ashobiz/react-on-the-fly-pdf">https://github.com/ashobiz/react-on-the-fly-pdf</a></p>
-<p>NPM - <a href="https://github.com/ashobiz/react-on-the-fly-pdf">https://www.npmjs.com/package/react-on-the-fly-pdf</a></p>
+<p>NPM - <a href="https://github.com/ashobiz/react-on-the-fly-pdf">https://www.npmjs.com/package/react-on-the-fly-pdf</a></p> */}
+
+
+<a href="www.backyardbrains.com">Backyar brains</a> ashobiz-brave.netlify.app
+ashobiz-cakefactory.netlify.app ashobiz-flatmania.netlify.app
+www.sarahpayne.co.uk nas02.netstring.de/project/zeewolde
+www.netekspert.com
 
                 </div>
 
