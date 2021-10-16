@@ -3,7 +3,9 @@ import {CSSTransition} from 'react-transition-group'
 
 export default function Home() {
     return (
-        <div>
+        <>
+
+            <div> 
             <CSSTransition
                 in={true}
                 timeout={1000}
@@ -167,11 +169,15 @@ footer & auto pagination. For detailed info, please visit the links below.</p>
                             LinkedIn: <a href="https://www.linkedin.com/in/ashobiz/">www.linkedin.com/in/ashobiz/</a> <br />
                             Github: <a href="https://github.com/ashobiz">www.github.com/ashobiz</a></p>
 
-                  </div>      
+                  </div>  
+            
             </div>
 
                 
+
             </CSSTransition>
         </div>
+        </>
+        
     )
 }

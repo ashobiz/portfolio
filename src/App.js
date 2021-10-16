@@ -8,6 +8,10 @@ import Works from './pages/Works'
 function App() {
   return (
     <div className="app">
+            
+      <div className="resume">                
+          <a href="/doc/ashok_resume.pdf">Download My Resume</a>
+      </div>   
       <div className="main">
 
         <Router>

@@ -319,3 +319,16 @@ ul{
 .text-center{
   text-align: center;
 }
+
+.resume{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: inline-block;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 15px #555;
+  font-weight: 600;
+  font-size: 13px;
+}
