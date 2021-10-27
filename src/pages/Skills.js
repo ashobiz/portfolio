@@ -3,6 +3,7 @@ import {CSSTransition} from 'react-transition-group'
 
 export default function Skills() {
     return (
+
         <div>
             <CSSTransition
                 in={true}
