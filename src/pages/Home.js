@@ -19,7 +19,7 @@ export default function Home() {
                             <h3>Howdy!</h3>
                             <h1>I'm Ashok<i>.</i></h1> 
                             <h2>FrontEnd Web Developer</h2>
-                            <p>I'm a FrontEnd Developer focused on building exceptional Web Apps. I wrote my first line of Code in 2010 and over the last 11 years I build many websites for clients around the world. </p>
+                            <p>I'm a FrontEnd Developer focused on building exceptional Web Apps. I wrote my first line of Code in 2010 and over the last 10 years I build many websites for clients around the world. </p>
                         </div>
                         <div className="hright">
                             <img src="/images/profile.jpg" alt="Ashok" />
@@ -89,7 +89,7 @@ export default function Home() {
 
                         <hr />
 
-                        <h3>2010 - 2016: Freelance Web Designer</h3>
+                        <h3>2012 - 2016: Freelance Web Designer</h3>
 
                         <p>I started my career as a freelance web designer. Initially I worked part time while doing my Engineering. After graduation, I became a full time freelancer. I design websites using <strong>HTML, CSS, JavaScript, jQuery, Bootstrap and LESS</strong>. I am one of the early adopters of Responsive web designing and Bootstrap. </p>
 
